@@ -13,4 +13,6 @@ docker run -p "80:80" -v ${PWD}/www:/var/www/html 6admin/apache-php-sqlsrv
 
 Then, you can access to your container on http://localhost
 
+You can access to the database management tool adminer on http://localhost/adminer/
+
 There is no mssql database on this container.
