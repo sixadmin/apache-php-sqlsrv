@@ -49,7 +49,6 @@ RUN ln -s /usr/share/adminer/latest.php /usr/share/adminer/adminer.php
 RUN echo "Alias /adminer.php /usr/share/adminer/adminer.php" | tee /etc/apache2/conf-available/adminer.conf
 RUN a2enconf adminer.conf
 COPY ./index.php /var/www/html/index.php
-COPY ./php.ini /etc/php/7.2/apache2/php.ini
 RUN rm -rf /var/www/html/index.html
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
