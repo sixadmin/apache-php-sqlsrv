@@ -1,5 +1,7 @@
 # apache-php-sqlsrv
 
+![Status](https://img.shields.io/badge/status-In%20progress-brightgreen?style=for-the-badge&logo=docker)
+
 ![sqlsrv](https://raw.githubusercontent.com/sixadmin/apache-php-sqlsrv/master/sqlsrv.png)
 ![sqlsrv2](https://raw.githubusercontent.com/sixadmin/apache-php-sqlsrv/master/sqlsrv2.png)
 
